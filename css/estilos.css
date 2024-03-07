@@ -49,7 +49,7 @@ body {
 }
 
 .form-container {
-    margin-top: 7rem; /* Ajusta el valor según sea necesario */
+    margin-top: 7rem;
   }
 
 .bntform {
@@ -61,3 +61,10 @@ body {
     background-color: #000;
     border-color: #000;
 }
+
+.fixed-corner {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999; 
+  }
