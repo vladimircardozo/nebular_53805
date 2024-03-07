@@ -62,9 +62,3 @@ body {
     border-color: #000;
 }
 
-.fixed-corner {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    z-index: 999; 
-  }
