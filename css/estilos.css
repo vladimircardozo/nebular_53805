@@ -47,3 +47,17 @@ body {
     background-color: #000;
     border-color: #000;
 }
+
+.form-container {
+    margin-top: 7rem; /* Ajusta el valor según sea necesario */
+  }
+
+.bntform {
+    background-color: #302f2f;
+    border-color: #302f2f;
+  }
+
+.bntform:hover {
+    background-color: #000;
+    border-color: #000;
+}
