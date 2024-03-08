@@ -50,12 +50,12 @@ body {
 
 .form-container {
     margin-top: 7rem;
-  }
+}
 
 .bntform {
     background-color: #302f2f;
     border-color: #302f2f;
-  }
+}
 
 .bntform:hover {
     background-color: #000;
