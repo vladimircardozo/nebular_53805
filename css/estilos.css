@@ -72,3 +72,15 @@ body {
 .border {
     border-color: #000 !important;
 }
+
+@media (max-width: 767px) {
+    .col-xs-6 {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    .card {
+        width: 100%; /* Hace que la tarjeta ocupe todo el ancho disponible */
+        max-width: 300px; /* Establece un ancho máximo para la tarjeta */
+      }
+  }
