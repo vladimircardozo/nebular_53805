@@ -17,6 +17,10 @@ body {
     width: auto;
 }
 
+.mainindex {
+    margin-top: 56px;
+}
+
 .colorh1banner {
     font-size: 45px;
     color: rgb(6, 83, 114);
