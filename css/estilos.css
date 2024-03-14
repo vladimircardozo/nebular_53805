@@ -17,9 +17,9 @@ body {
     width: auto;
 }
 
-.banner {
-    width: 100%;
-    height: 100vh;
+.colorh1banner {
+    font-size: 45px;
+    color: rgb(6, 83, 114);
 }
 
 .nav-link {
@@ -62,11 +62,6 @@ body {
     border-color: #000;
 }
 
-
-.contenedorform {
-    width: 90%;
-    height: 85vh;
-}
 
 .border {
     border-color: #000 !important;
