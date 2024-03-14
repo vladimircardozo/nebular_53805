@@ -80,7 +80,7 @@ body {
     }
 
     .card {
-        width: 100%; /* Hace que la tarjeta ocupe todo el ancho disponible */
-        max-width: 300px; /* Establece un ancho máximo para la tarjeta */
+        width: 100%;
+        max-width: 300px;
       }
   }
