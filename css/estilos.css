@@ -11,6 +11,10 @@ body {
     padding-top: 70px;
 }
 
+.h1productos {
+    margin-top: 40px;
+  }
+
 
 .navbar-brand img {
     height: 4rem;
@@ -36,13 +40,19 @@ body {
     background-color: #302f2f;
 } 
 
+.footerproductos {
+    margin-top: 40px;
+  }
+
 .copyrightcolor {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.padcartas {
-    padding: 60px 0;
-}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+  }
 
 .btncomprar {
     background-color: #302f2f;
@@ -74,8 +84,7 @@ body {
 }
 
 @media (max-width: 767px) {
-    .col-xs-6 {
-      padding-right: 0;
-      padding-left: 0;
+    .tamañoh1banner {
+      font-size: 24px; 
     }
-  }
+}
