@@ -12,78 +12,73 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #000;
     padding-top: 70px;
+
+    .nav-link {
+        color: #3a3939 !important; 
+    }
+
+    .navbar-brand img {
+        height: 4rem;
+        width: auto;
+    }
 }
 
 .h1productos {
     margin-top: 40px;
-  }
-
-
-.navbar-brand img {
-    height: 4rem;
-    width: auto;
 }
 
 .mainindex {
     margin-top: 56px;
-}
 
-
-
-.colorh1banner {
-    font-size: 45px;
-    color: rgb(6, 83, 114);
-}
-
-.nav-link {
-    color: #3a3939 !important; 
+    .colorh1banner {
+       font-size: 45px;
+       color: rgb(6, 83, 114);
+    }
 }
 
  footer {
     background-color: #302f2f;
+
+    .copyrightcolor {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
 } 
 
 .footerproductos {
     margin-top: 40px;
-  }
-
-.copyrightcolor {
-    background-color: rgba(0, 0, 0, 0.2);
 }
-
 
 .card img {
     max-width: 100%;
-    height: auto;
-  }
+    height: auto;   
+}
 
 .btncomprar {
     background-color: #302f2f;
     border-color: #302f2f;
-}
 
-.btncomprar:hover {
-    background-color: #000;
-    border-color: #000;
+    &:hover {
+        background-color: #000;
+        border-color: #000;
+    }
 }
 
 .form-container {
     margin-top: 7rem;
-}
 
-.bntform {
-    background-color: #302f2f;
-    border-color: #302f2f;
-}
-
-.bntform:hover {
-    background-color: #000;
-    border-color: #000;
-}
-
-
-.border {
-    border-color: #000 !important;
+    .border {
+        border-color: #000 !important;
+    
+        .bntform {
+            background-color: #302f2f;
+            border-color: #302f2f;
+        
+            &:hover {
+                background-color: #000;
+                border-color: #000;
+            }
+        }
+    }
 }
 
 @media (max-width: 767px) {
