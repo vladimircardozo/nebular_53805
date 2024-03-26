@@ -61,6 +61,13 @@ body {
   border-color: #000;
 }
 
+.nav-item.dropdown .dropdown-menu .dropdown-item {
+  color: inherit;
+}
+.nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
 footer {
   background-color: #302f2f;
 }

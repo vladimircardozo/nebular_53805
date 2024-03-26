@@ -1,5 +1,15 @@
-$color-principal:#000;
-$color-secundario:#302f2f;
-$color-link:#3a3939;
-$color-h1banner:rgb(6, 83, 114);
-$color-copy:rgba(0, 0, 0, 0.2);
+$colors: (
+  principal: #000,
+  secundario: #302f2f,
+  link: #3a3939,
+  h1banner: rgb(6, 83, 114),
+  copy: rgba(0, 0, 0, 0.2),
+  productoslink: rgba(128, 128, 128, 0.5)
+);
+
+$color-principal: map-get($colors, principal);
+$color-secundario: map-get($colors, secundario);
+$color-link: map-get($colors, link);
+$color-h1banner: map-get($colors, h1banner);
+$color-copy: map-get($colors, copy);
+$color-productoslink: map-get($colors, productoslink);

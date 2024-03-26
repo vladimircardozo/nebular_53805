@@ -1,13 +1,16 @@
+@import 'mixin';
 .h1topproductos {
     margin-top: 40px;
   }
 
 .btncomprar {
-    background-color: $color-secundario;
-    border-color: $color-secundario;
-  
-    &:hover {
-        background-color: $color-principal;
-        border-color: $color-principal;
-    }
+    @include boton-comprar;
 }
+
+.nav-item.dropdown .dropdown-menu .dropdown-item {
+    color: inherit;
+    
+    &:hover {
+      background-color: $color-productoslink;
+    }
+  }
