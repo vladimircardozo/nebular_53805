@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    padding-top: 70px;
+}
+
+.h1productos {
+    margin-top: 40px;
+  }
+
+
+.navbar-brand img {
+    height: 4rem;
+    width: auto;
+}
+
+.mainindex {
+    margin-top: 56px;
+}
+
+
+
+.colorh1banner {
+    font-size: 45px;
+    color: rgb(6, 83, 114);
+}
+
+.nav-link {
+    color: #3a3939 !important; 
+}
+
+ footer {
+    background-color: #302f2f;
+} 
+
+.footerproductos {
+    margin-top: 40px;
+  }
+
+.copyrightcolor {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.btncomprar {
+    background-color: #302f2f;
+    border-color: #302f2f;
+}
+
+.btncomprar:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
+.form-container {
+    margin-top: 7rem;
+}
+
+.bntform {
+    background-color: #302f2f;
+    border-color: #302f2f;
+}
+
+.bntform:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
+
+.border {
+    border-color: #000 !important;
+}
+
+@media (max-width: 767px) {
+    .tamañoh1banner {
+      font-size: 24px; 
+    }
+}

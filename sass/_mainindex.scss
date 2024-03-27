@@ -1,0 +1,14 @@
+.mainindex {
+    margin-top: 56px;
+  
+    .colorh1banner {
+       font-size: 45px;
+       color: $color-h1banner;
+    }
+    
+    @media (max-width: 767px) {
+     .tamañoh1banner {
+       font-size: 24px; 
+     }
+   }
+}
