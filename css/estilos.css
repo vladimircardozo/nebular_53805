@@ -56,6 +56,9 @@ body {
   .mainindex .tamañoh1banner {
     font-size: 24px;
   }
+  .mainindex .card-img-index {
+    margin-top: 15px;
+  }
 }
 
 .gradiantes-index {
