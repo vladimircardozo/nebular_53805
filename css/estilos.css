@@ -58,6 +58,11 @@ body {
   }
 }
 
+.gradiantes-index {
+  background: rgb(221, 213, 213);
+  background: linear-gradient(0deg, rgba(221, 213, 213, 0.77) 0%, rgb(221, 213, 213) 30%);
+}
+
 .form-container {
   margin-top: 7rem;
 }
