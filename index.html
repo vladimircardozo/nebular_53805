@@ -16,8 +16,10 @@
             <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
                 <div class="container">
                   <a class="navbar-brand" href="#"><img src="./favicon.ico" alt="Logo"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                  <button id="hamburgerButton" class="hamburger hamburger--3dx-r d-block d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbar-left">
                     <ul class="navbar-nav ms-auto">
@@ -102,5 +104,11 @@
             </div>
           </footer>
         <script src="./js/bootstrap.bundle.min.js"></script>
+        <script>
+          const hamburgerButton = document.getElementById('hamburgerButton');
+          hamburgerButton.addEventListener('click', function() {
+            this.classList.toggle('is-active');
+          });
+        </script>
     </body>
 </html>
