@@ -1,0 +1,23 @@
+.mainindex {
+    margin-top: 56px;
+  
+    .colorh1banner {
+       font-size: 45px;
+       color: $color-h1banner;
+    }
+    
+    @media (max-width: 767px) {
+     .tamañoh1banner {
+       font-size: 24px; 
+     }
+     .card-img-index {
+      margin-top: 15px;
+     }
+   }
+
+}
+
+.gradiantes-index {
+  background: rgb(221,213,213);
+background: linear-gradient(0deg, rgba(221,213,213,0.77) 0%, rgba(221,213,213,1) 30%);
+}

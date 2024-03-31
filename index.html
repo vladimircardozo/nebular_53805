@@ -3,61 +3,94 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>nebular</title>
+        <meta name="description" content="Descubre nuestra colección de ropa urbana unisex, diseñada para expresar tu estilo único y auténtico. Ofrecemos prendas de calidad que se adaptan a todos los géneros. Explora nuestra selección de moda urbana y encuentra piezas que te ayudarán a destacar en la ciudad. ¡Haz una declaración de estilo con nuestra ropa urbana para todos!">
+        <meta name="keywords" content="ropa, moda, moda urbana, tendencias de moda, tienda de ropa, estilo">
+        <title>Nebular | Tienda de Ropa unisex</title>
         <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="icon" href="./favicon.ico">
-        <link rel="stylesheet" href="../proyecto/css/estilos.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="stylesheet" href="./sass/estilos.scss">
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-md navbar-light bg-white">
+            <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
                 <div class="container">
-                  
-                  <button class="navbar-toggler order-2 order-md-1" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                  <a class="navbar-brand" href="#"><img src="./favicon.ico" alt="Logo"></a>
+                  <button id="hamburgerButton" class="hamburger hamburger--3dx-r d-block d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
                   </button>
-                  <div class="collapse navbar-collapse order-3 order-md-2" id="navbar-left">
-                    <ul class="navbar-nav me-auto">
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./pages/contacto.html">Contactanos</a>
-                      </li>
-                      
-                    </ul>
-                  </div>
-                  <a class="navbar-brand order-1 order-md-3" href="#"><img src="./favicon.ico" alt="Logo"></a>
-                  <div class="collapse navbar-collapse order-4 order-md-4" id="navbar-right">
+                  <div class="collapse navbar-collapse" id="navbar-left">
                     <ul class="navbar-nav ms-auto">
                       <li class="nav-item">
-                        <a class="nav-link " href="./pages/remeras.html">Remeras</a>
+                        <a class="nav-link hvr-underline-from-right" href="#">Inicio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./pages/pantalones.html">Pantalones</a>
+                        <a class="nav-link hvr-underline-from-right" href="./pages/nosotros.html">Nosotros</a>
                       </li>
-                      
+                      <li class="nav-item">
+                        <a class="nav-link hvr-underline-from-right" href="./pages/contacto.html">Contactanos</a>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle hvr-underline-from-right" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="./pages/remeras.html">Remeras</a></li>
+                          <li><a class="dropdown-item" href="./pages/pantalones.html">Pantalones</a></li>
+                        </ul>
+                      </li>
+                      </li>
                     </ul>
                   </div>
+                  
                 </div>
-              </nav>
+            </nav>
         </header>
-        <main>
-             <section>
-                <img src="./assets/img/banner.jpg" alt="" loading="lazy" class="banner">
-             </section>
+        <div class="text-center mt-5 mb-5">
+          <p class="fs-5 smaller-text">¡Renueva tu estilo con nuestra colección exclusiva! Descubre las últimas tendencias en moda en nuestra tienda online Nebular.</p>
+        </div>
+        <main class="mainindex">
+          <section>
+            <div class="card">
+              <img src="./assets/img/banner.jpg" class="card-img img-fluid" alt="...">
+              <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                <h1 class="card-title text-center colorh1banner tamañoh1banner">Tienda de ropa online Nebular</h1>
+              </div>
+            </div>
+          </section>
+
              <section class="text-center mt-5 mb-5">
-                <a href="./pages/remeras.html"><img src="./assets/img/remeraindex.png" alt="" loading="lazy" class="me-5"></a>
-                <a href="./pages/pantalones.html"><img src="./assets/img/pantalonindex.jpg" alt="" loading="lazy" class="ms-5"></a>
+              <h2 class="mb-5 ">Productos</h2>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <a href="./pages/remeras.html">
+                    <div class="card bg-dark text-white border-0 rounded-1 gradiantes-index">
+                      <img src="./assets/img/remeraindex.png" class="card-img" alt="...">
+                      <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                        <h1 class="card-title text-center">Remeras</h1>
+                      </div>
+                    </div>
+                    </a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="./pages/pantalones.html">
+                    <div class="card bg-dark text-white border-0 rounded-1 gradiantes-index card-img-index">
+                      <img src="./assets/img/pantalonindex.png" class="card-img" alt="...">
+                      <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                        <h1 class="card-title text-center">Pantalones</h1>
+                      </div>
+                    </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
              </section>
         </main>
-        <section>
           <footer class="text-center text-white">
             <div class="container p-4 pb-0">
-              <section class="">
+              <section>
                 <p class="d-flex justify-content-center align-items-center">
                   <span class="me-3">Registrate gratis</span>
                   <button data-mdb-ripple-init type="button" class="btn btn-outline-light btn-rounded">
@@ -66,12 +99,11 @@
                 </p>
               </section>
             </div>
-        
             <div class="text-center p-3 copyrightcolor">
              <p>© 2024 Copyright:NEBULAR - 2024. Todos los derechos reservados</p> 
             </div>
           </footer>
-        </section>
         <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/menuhamburguesa.js"></script>
     </body>
 </html>
