@@ -4,6 +4,8 @@
     .colorh1banner {
        font-size: 45px;
        color: $color-h1banner;
+       text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.9);
+       text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
     }
     
     @media (max-width: 767px) {

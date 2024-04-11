@@ -143,6 +143,8 @@ body {
 .mainindex .colorh1banner {
   font-size: 45px;
   color: rgb(6, 83, 114);
+  text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.9);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
 }
 @media (max-width: 767px) {
   .mainindex .tamañoh1banner {
@@ -206,4 +208,42 @@ footer .copyrightcolor {
 
 .color-fondo {
   background-color: rgba(192, 189, 189, 0.5);
+}
+
+.page_404 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.imagenerror404 {
+  height: 20rem;
+  width: auto;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #000;
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+.link_404:hover {
+  color: #fff;
+  background-color: #302f2f;
+}
+
+@media (max-width: 767px) {
+  .imagenerror404 {
+    max-width: 150px;
+    max-height: 100px;
+  }
 }/*# sourceMappingURL=estilos.css.map */
