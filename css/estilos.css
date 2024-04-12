@@ -192,7 +192,7 @@ body {
 }
 .btncomprar:active {
   background-color: inherit;
-  box-shadow: 0 0 10px #000;
+  box-shadow: inherit;
 }
 
 .nav-item.dropdown .dropdown-menu .dropdown-item {
