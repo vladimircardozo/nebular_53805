@@ -180,20 +180,17 @@ body {
 }
 
 .btncomprar {
+  color: #fff;
   background-color: #302f2f;
   border-color: #302f2f;
 }
 .btncomprar:hover {
+  color: #fff;
   background-color: #000;
   border-color: #000;
 }
 .btncomprar:focus {
   outline: none;
-}
-.btncomprar:active {
-  background-color: inherit;
-  -webkit-backdrop-filter: none;
-          backdrop-filter: none;
 }
 
 .nav-item.dropdown .dropdown-menu .dropdown-item {

@@ -1,8 +1,10 @@
 @mixin boton-comprar {
+  color: #fff;
   background-color: $color-secundario;
   border-color: $color-secundario;
 
   &:hover {
+      color: #fff;
       background-color: $color-principal;
       border-color: $color-principal;
   }
@@ -11,8 +13,4 @@
       outline: none;
   }
 
-  &:active {
-      background-color: inherit; 
-      backdrop-filter: none;
-  }
 }
