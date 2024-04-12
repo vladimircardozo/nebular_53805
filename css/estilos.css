@@ -187,6 +187,12 @@ body {
   background-color: #000;
   border-color: #000;
 }
+.btncomprar:focus {
+  outline: none;
+}
+.btncomprar:active {
+  background-color: inherit;
+}
 
 .nav-item.dropdown .dropdown-menu .dropdown-item {
   color: inherit;
