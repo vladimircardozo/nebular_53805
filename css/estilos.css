@@ -192,7 +192,8 @@ body {
 }
 .btncomprar:active {
   background-color: inherit;
-  box-shadow: inherit;
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
 }
 
 .nav-item.dropdown .dropdown-menu .dropdown-item {
